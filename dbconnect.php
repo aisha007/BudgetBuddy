@@ -1,10 +1,16 @@
 <?php
 	
-	//define constants
-	define('DB_SERVER' , 'localhost');
+	//development part
+	/* define('DB_SERVER' , 'localhost');
 	define('DB_USERNAME' , 'root');
 	define('DB_PASSWORD' , '');
-	define('DB_NAME' , 'wtproject');
+	define('DB_NAME' , 'wtproject'); */
+
+	// Remote datatbase connection 
+	define('DB_SERVER' , 'remotemysql.com');
+	define('DB_USERNAME' , 'C39P2f0KVx');
+	define('DB_PASSWORD' , '2stQPfCAQI');
+	define('DB_NAME' , 'C39P2f0KVx');
 	
 	//connection with database
 	$conn = mysqli_connect(DB_SERVER , DB_USERNAME , DB_PASSWORD , DB_NAME);
