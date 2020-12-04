@@ -96,7 +96,7 @@
                             <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
-                            <button type="button" class="btn btn-outline-primary mr-sm-2" data-toggle="modal" data-target="#exampleModalCenter">Login</button>
+                            <button type="button" id="login1" name="login1"class="btn btn-outline-primary mr-sm-2" data-toggle="modal" data-target="#exampleModalCenter">Login</button>
                             </li>
                             <li class="nav-item">
                             <button class="btn btn-outline-primary" onclick="window.location.href = 'register.php';">Register</button>
@@ -114,7 +114,7 @@
             <p class="lead">This is web based application which can help you with your track your spendings
                 <br>Let's Get Started!!!
             </p>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            <button type="button" id="login2" name="login2" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
                 Login Now
               </button>
 
